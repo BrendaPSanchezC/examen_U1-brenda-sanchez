@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.ancho{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+header{
+    background-color: #313036;
+    padding: 0;
+    margin: 0;
+    
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header p{
+    color: #f0f3f8;
+}
+.head div a{
+    color: #f0f3f8;
+    padding: 10px;
+}
+.head i{
+    padding-right: 10px;
+}
+.barra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.barra figure{
+    margin: 0;
+    padding: 0;
+    width: 13%;
+}
+.barra figure img{
+    width: 100%;
+}
+.menu{
+    display: grid;
+    grid-template: auto / 1fr 1fr 1fr 1fr 1fr;
+
+}
+.menu a{
+    text-decoration: none;
+    padding: 30px;
+    color: black;
+}
+.hero{
+    position: relative;
+}
+.hero figure{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.hero figure img{
+    width: 100%;
+}
+.texthero{
+    width: 30%;
+    position: absolute;
+    top: 15%;
+    left: 11%;
+    text-align: start;
+}
+.titulohero{
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+}
+.texthero a{
+    text-decoration: none;
+    font-size: 0.8rem;
+    border: 2px black solid;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: black;
+    margin-right: 10px;
+    font-weight: 200;
+}
+.texthero a:hover{
+    color: #f0f3f8;
+    background-color: #1d8ef6;
+    border: none;
+}
+.empresa{
+    text-align: center;
+}
+.empresa h1{
+    color: #313036;
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+.empresa hr{
+    width: 60px;
+}
+.empresas figure{
+    padding: 0;
+    margin: 0;
+}
+.empresas figure img{
+    width: 100%;
+}
+.empresas{
+    display: grid;
+    grid-template: auto / 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+.empresas article{
+    border: 1px #ccc solid;
+    border-radius: 10px;
+}
+.empresas h2{
+    margin-top: 25px;
+    margin-bottom: 0;
+    font-size: 1.3rem;
+}
+.empresas h5{
+    color: #313036;
+    margin: 15px;
+}
+.empresas article:hover{
+    box-shadow: 0px 0px 30px #ccc;
+    transform: scale(1.05);
+}
+.servicio{
+    text-align: center;
+}
+.servicio h1{
+    color: #313036;
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+hr{
+    border-color: #1d8ef6;
+    width: 50px;
+}
+.servicios{
+    display: grid;
+    grid-template: auto / 1fr 1fr 1fr;
+    gap: 20px;
+}
+.servicios article{
+    border-radius: 5px;
+    border: 1px #ccc solid;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+.circulo{
+    border-radius: 50%;
+    background-color: #1d8ef6;
+    width: 70px;
+    height: 70px;
+}
+.circulo i{
+    font-size: 2.5rem;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.servicios p{
+    padding: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.servicios article:hover{
+    h2{
+        color: #f0f3f8;
+    }
+    p{
+        color: #f0f3f8;
+    }
+    background-color: #1d8ef6;
+    .circulo{
+        background-color: #f0f3f8;
+    }
+    .circulo i{
+        color: #1d8ef6;
+    }
+}
+.promocion{
+    background-color: rgba(198, 215, 210, 0.785);
+    text-align: center;
+    padding: 50px;
+    padding-top: 20px;
+}
+.promocion h1{
+    color: #313036;
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+.promociones{
+    display: grid;
+    grid-template: auto / 1fr 1fr 1fr;
+    gap: 20px;
+    justify-content: start;
+    justify-items: start;
+}
+.promociones figure{
+    margin: 0;
+    padding: 0;
+}
+.promociones figure img{
+    width: 100%;
+    height: 300px;
+}
+.promociones article{
+    background-color: #f0f3f8;
+    border-radius: 10px;
+    border: 1px #ccc solid;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    position: relative;
+}
+.fecha{
+    background-color: #1d8ef6;
+    width: 100px;
+    padding: 2px;
+    text-align: center;
+    color: #f0f3f8;
+    border-radius: 3px;
+    position: absolute;
+    top: 65%;
+    left: 38%;
+}
+.promociones h3{
+    color: #313036;
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+.promociones p{
+    font-size: 0.9rem;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 0;
+    padding-bottom: 10px;
+}
+.instalacion{
+    text-align: center;
+}
+.instalacion h1{
+    color: #313036;
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+.instalaciones{
+    display: grid;
+    grid-template: auto / 1fr 1fr 1fr 1fr;
+}
+.instalaciones figure{
+    margin: 0;
+    padding: 0;
+}
+.instalaciones figure img{
+    width: 100%;
+}
+.instalaciones figure img:hover{
+    transition: filter 0.3s ease;
+    filter: grayscale(100%);
+    transform: scale(1.1);
+    transition: all 0.5s linear;
+}
+footer{
+    background-color: #313036;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+footer a{
+    text-decoration: none;
+    color: #f0f3f8;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    padding: 2px;
+    
+}
