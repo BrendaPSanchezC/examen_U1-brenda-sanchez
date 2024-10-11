@@ -6,7 +6,11 @@
         flex-direction: column;
         justify-content: center;
     }
+    .texthero{
+        display: none;
+    }
     .menu{
+        justify-content: center;
         max-width: 375px;
         width: 100%;
         grid-template: repeat(5, auto) / auto;
@@ -17,6 +21,8 @@
         max-width: 375px;
         width: 100%;
         padding: 10px;
+        padding-right: 0;
+        margin-right: 0;
         border: 2px black solid;
     }
     .empresas{
@@ -31,5 +37,23 @@
     }
     .promociones{
         grid-template: repeat(3, auto) / auto;
+    }
+    .promociones figure img{
+        width: 100%;
+        height: 200px;
+    }
+    .fecha{
+        background-color: #1d8ef6;
+        width: 100px;
+        padding: 2px;
+        text-align: center;
+        color: #f0f3f8;
+        border-radius: 3px;
+        position: absolute;
+        top: 52%;
+        left: 35%;
+    }
+    .instalaciones{
+        grid-template: repeat(4, auto) / auto;
     }
 }
